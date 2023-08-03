@@ -2,7 +2,6 @@
 {{ $n := len $p.list }}
 {{- with (.Get 0) -}}
     {{- $n = . -}}
-    {{- printf "The list contains **%d** pangrams.\n" $n -}}
 {{- else -}}
     {{- printf "The list contains **%d** pangrams. " $n -}}
     {{- printf "They are between _%d_ and _%d_ characters (C) long " $p.minChars $p.maxChars  -}}
