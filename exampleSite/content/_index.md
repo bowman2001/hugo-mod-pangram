@@ -22,4 +22,4 @@ The shortcode `pangram` generates pure text and we need to call it as a Markdown
 
 ## List of all available pangrams
 
-{{% pangrams-list %}}
+{{% pangram-list %}}
